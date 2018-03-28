@@ -1,0 +1,1 @@
+py contribute.py -r https://github.com/progspace1204/pansophy.git -ue progspace1204@gmail.com -un progspace1204 -fr 30

@@ -1,0 +1,15 @@
+{
+    "name": "banestojanovic/pansophy",
+    "autoload": {
+        "psr-4": {
+            "Pansophy\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Branislav Stojanovic",
+            "email": "banestojanovics@gmail.com"
+        }
+    ],
+    "require": {}
+}

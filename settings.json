@@ -1,0 +1,125 @@
+{
+    "openAIApiKey": {
+      "enabled": true,
+      "type": "key"
+    },
+    "PansophyKey": {
+      "enabled": true,
+      "type": "key"
+    },
+    "showModel": {
+      "enabled": true,
+      "type":"dropdown",
+      "showModelOptions": [
+        { "label": "GPT 3.5", "value": "gpt-3.5-turbo" },
+        { "label": "Da-Vinci", "value": "Da-Vinci" },
+        { "label": "Cure 001", "value": "Cure001" },
+        { "label": "Babbage 001", "value": "Babbage001" },
+        { "label": "Ada 001", "value": "Ada001" }
+      ]
+    },
+    "showUsers": {
+      "enabled": true,
+      "type":"dropdown",
+      "showUsersOptions": [
+        { "label": "All users", "value": "All" },
+        { "label": "Logged in users only", "value": "Loggedin" },
+        { "label": "Admin users only", "value": "Admin" }
+      ]
+    },
+    "showPopupPosition": {
+      "enabled": true,
+      "type":"dropdown",
+      "showPopupPositionOptions": [
+        { "label": "Bottom Right", "value": "bottomright" },
+        { "label": "Bottom Left", "value": "bottom-left" },
+        { "label": "Top Right", "value": "top-right" },
+        { "label": "Top Left", "value": "top-left" }
+      ]
+    },
+    "maximumToken": {
+      "enabled":true,
+      "type":"number" 
+    },
+    "useFineTuneModel": {
+      "enabled": true,
+      "type":"dropdown",
+      "showUseFineTuneModel": [
+        { "label": "Yes", "value": "true" },
+        { "label": "No", "value": "false" }
+      ]
+    },
+    "mode": {
+      "enabled": true,
+      "type":"dropdown",
+      "showMode": [
+        { "label": "Content", "value": "content" },
+        { "label": "Assistant", "value": "assistant" }
+      ]
+    },
+    "header_message": {
+      "enabled": true,
+      "type": "text"
+    },
+    "header_description": {
+      "enabled": true,
+      "type": "text"
+    },
+    "logo": {
+      "enabled": true,
+      "type": "image"
+    },
+    "content_mode_icon": {
+      "enabled": true,
+      "type": "image"
+    },
+    "assistant_mode_icon": {
+      "enabled": true,
+      "type": "image"
+    },
+    "response_avatar": {
+      "enabled": true,
+      "type": "image"
+    },
+    "branding": {
+      "enabled": true,
+      "type": "boolean"
+    },
+    "autoDelete": {
+      "enabled": true,
+      "type":"dropdown",
+      "autoDeleteDayOptions": [
+        { "label": "Auto Delete Every 7 days", "value": "7" },
+        { "label": "Auto Delete Every 15 days", "value": "15" },
+        { "label": "Auto Delete Every 30 days", "value": "30" }
+      ]
+    },
+
+
+    
+        "showUsersDallE": {
+          "enabled": true,
+          "type":"dropdown",
+          "showUsersOptions": [
+            { "label": "All users", "value": "All" },
+            { "label": "Logged in users only", "value": "Loggedin" },
+            { "label": "Admin users only", "value": "Admin" }
+          ]
+        },
+        "showPopupPositionDallE": {
+          "enabled": true,
+          "type":"dropdown",
+          "showPopupPositionOptions": [
+            { "label": "Bottom Right", "value": "bottomright" },
+            { "label": "Bottom Left", "value": "bottom-left" },
+            { "label": "Top Right", "value": "top-right" },
+            { "label": "Top Left", "value": "top-left" }
+          ]
+        },
+        "logoDallE": {
+          "enabled": true,
+          "type": "image"
+        }
+
+  }
+  

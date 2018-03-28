@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toplevel_page_chatgpt-core #wpwrap {
+  background-color: #08090a;
+}
+
+.toplevel_page_pansophy #wpcontent {
+  background-color: #08090a;
+}
+
+.toplevel_page_pansophy #wpfooter {
+  display: none;
+}
+
+.toplevel_page_pansophy a:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.pansophy-app {
+  font-family: Poppins, system-ui, sans-serif !important;
+}
+
+.slbElement {
+  position: relative;
+  z-index: 999999;
+}
+.pagination_container {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  color: #ffffff !important;
+}
+
+.pagination_previous {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid rgba(55, 50, 50, 0.299);
+}
+.pageClass {
+  border: 1px solid rgba(55, 50, 50, 0.299);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.pagination_active {
+  border: none;
+  border-radius: 5px;
+  background-color: #023e8a;
+  height: 30px;
+  width: 30px;
+  color: #ffffff;
+}
+
+.react-tooltip {
+  background-color: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(63, 63, 70, 0.5);
+  border-radius: 10px !important;
+  font-size: 14px;
+  color: #a1a1aa !important;
+}
+
+.react-tooltip .react-tooltip-arrow {
+  display: none;
+}
+.pansophy-app-chat::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.pansophy-app-chat::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.pansophy-app-chat::-webkit-scrollbar-thumb {
+  background:#10B981; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.pansophy-app-chat::-webkit-scrollbar-thumb:hover {
+  background: #0fa674; 
+} 
+
+@layer base {
+  html {
+    font-family: Poppins, system-ui, sans-serif;
+  }
+
+  input.pansophy-keyword-field {
+    padding: 0 !important;
+    color: #a1a1aa;
+  }
+
+  input.pansophy-keyword-field::placeholder {
+    color: #a1a1aa;
+  }
+
+  input.pansophy-keyword-field:focus {
+    outline: 0 !important;
+    box-shadow: none;
+  }
+
+  .pansophy-input textarea {
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  input.pansophy-keyword {
+    position: relative;
+    padding: 0.6rem 1.5rem;
+    background-color: transparent;
+    border-color: rgb(22 25 30 / var(--tw-border-opacity));
+    color: #6c757d;
+  }
+
+  .pansophy-input input {
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    height: 54px;
+    background-color: transparent !important;
+    border-color: rgb(22 25 30 / var(--tw-border-opacity)) !important;
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  input.pansophy-checkbox {
+    background-color: transparent;
+    border-color: rgb(22 25 30 / var(--tw-border-opacity));
+    height: 24px;
+    width: 24px;
+  }
+
+  input.pansophy-checkbox:checked {
+    background-color: #023e8a;
+  }
+
+  input.pansophy-checkbox:checked:focus,
+  input.pansophy-checkbox:checked:active,
+  input.pansophy-checkbox:checked:hover {
+    background-color: #023e8a;
+  }
+
+  input.pansophy-checkbox:checked:before {
+    content: "";
+  }
+}

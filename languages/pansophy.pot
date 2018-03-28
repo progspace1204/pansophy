@@ -1,0 +1,367 @@
+# Copyright (C) 2023 Mind2Matter
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pansophy 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pansophy\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-30T17:41:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: pansophy\n"
+
+#. Plugin Name of the plugin
+#: app/Admin/PansophyAdmin.php:13
+#: chatgpt-core.php:22
+#: build/index.js:1
+#: src/App.js:15
+msgid "Pansophy"
+msgstr ""
+
+#. Description of the plugin
+msgid "Full ChatGPT communication and AI generated images using the power of Dall-E-2."
+msgstr ""
+
+#. Author of the plugin
+msgid "Mind2Matter"
+msgstr ""
+
+#: templates/pansophy-app.php:2
+#: templates/pansophy-settings.php:2
+msgid "Loading..."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Partials/PansophyModal.js:57
+msgid "Provided by"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyInput.js:10
+msgid "Input prompt..."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:7
+#: src/components/Pansophy/PansophySubmit.js:7
+msgid "1 Image"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:8
+#: src/components/Pansophy/PansophySubmit.js:8
+msgid "3 Images"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:9
+#: src/components/Pansophy/PansophySubmit.js:9
+msgid "5 Images"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:10
+#: src/components/Pansophy/PansophySubmit.js:10
+msgid "10 Images"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:11
+#: src/components/Pansophy/PansophySubmit.js:11
+msgid "20 Images"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:12
+#: src/components/Pansophy/PansophySubmit.js:12
+msgid "30 Images"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:15
+#: src/components/Pansophy/PansophySubmit.js:15
+msgid "Small - 256 x 256"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:16
+#: src/components/Pansophy/PansophySubmit.js:16
+msgid "Medium - 512 x 512"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:17
+#: src/components/Pansophy/PansophySubmit.js:17
+msgid "Large - 1024 x 1024"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:20
+#: src/components/Pansophy/PansophySubmit.js:20
+msgid "256 x 256"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:21
+#: src/components/Pansophy/PansophySubmit.js:21
+msgid "512 x 512"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistantSubmit.js:22
+#: src/components/Pansophy/PansophySubmit.js:22
+msgid "1024 x 1024"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Chat/UserMessage.js:11
+msgid "User Avatar"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Chat/GeneratingImagesMessage.js:23
+msgid "Generating Images"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Chat/GeneratingImagesMessage.js:39
+msgid "Time Remaining"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Chat/AIAssistantImagesMessage.js:97
+#: src/components/Pansophy/Chat/AIImagesMessage.js:71
+msgid "AI Generated image"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Chat/AIAssistantImagesMessage.js:143
+#: src/components/Pansophy/Chat/AIImagesMessage.js:106
+msgid "Copy All"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Chat/AIAssistantImagesMessage.js:147
+#: src/components/Pansophy/Chat/AIImagesMessage.js:110
+msgid "Copy Selected"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Chat/AIAssistantImagesMessage.js:151
+#: src/components/Pansophy/Chat/AIImagesMessage.js:114
+msgid "Download All"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/Chat/AIAssistantImagesMessage.js:155
+#: src/components/Pansophy/Chat/AIImagesMessage.js:118
+msgid "Download Selected"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Pansophy/PansophyAssistant.js:53
+msgid "Hi there 👋"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Subscriptions.js:26
+msgid "Subscription Status"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Subscriptions.js:27
+msgid "Expiring in 2 days"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Subscriptions.js:33
+msgid "Renew Subscription"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Header.js:23
+#: src/components/Header.js:64
+#: src/components/Header.js:91
+msgid "General"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Header.js:27
+#: src/components/Header.js:65
+#: src/components/Header.js:98
+msgid "History"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Header.js:31
+#: src/components/Header.js:66
+#: src/components/Header.js:105
+msgid "DALL-E-2"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Header.js:33
+#: src/components/Header.js:107
+msgid "Models & Fine-Tuning"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Header.js:35
+#: src/components/Header.js:109
+msgid "Datasets"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Header.js:37
+#: src/components/Header.js:111
+msgid "Manage Subscriptions"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Dalle/DalleSettings.js:24
+#: src/components/General/GeneralSettings.js:57
+msgid "Select Users to Show ChatGPT Popup"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Dalle/DalleSettings.js:28
+#: src/components/General/GeneralSettings.js:88
+msgid "Select Popup Position"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Form/File.js:26
+msgid "Recommended size 200x200"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Form/File.js:28
+msgid "Browse"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Form/SelectPages.js:35
+msgid "Select All"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/Form/SelectPages.js:41
+#: src/components/Form/SelectPages.js:46
+msgid "Unselect All"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:49
+msgid "OpenAI API"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:51
+msgid "Get OpenAPI API Key"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:60
+msgid "Maximum Tokens"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:62
+msgid "Learn More"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:69
+msgid "Mode"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:77
+msgid "Learn more"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:85
+#: src/components/General/GeneralSettings.js:119
+#: src/components/General/GeneralSettings.js:120
+msgid "Select Pages"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:92
+msgid "Use Fine Tuned Model"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:95
+msgid "Pansophy API Key"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:96
+msgid "Get Pansophy API Key"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:102
+msgid "Header Message"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:106
+msgid "Header Description"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:110
+msgid "File Upload"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:110
+msgid "Choose Logo"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/General/GeneralSettings.js:115
+msgid "Update Settings"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/History/HistoryItems.js:77
+msgid "Prompt"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/History/HistoryItems.js:83
+msgid "Response"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/History/HistoryItems.js:87
+msgid "Actions"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/History/HistoryItems.js:132
+msgid "Delete History"
+msgstr ""
+
+#: build/index.js:1
+#: src/components/History/HistoryItems.js:133
+msgid "Are you sure you wish to proceed? This action is permanent can not be undone."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/History/HistoryFilters.js:16
+msgid "Search History..."
+msgstr ""
+
+#: build/index.js:1
+#: src/components/History/HistoryFilters.js:27
+msgid "Auto-delete time"
+msgstr ""
